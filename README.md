@@ -1,7 +1,7 @@
 
-# ProfGPT - Personalized Course Advisor
+# ProfEssence-AI - Personalized Course Advisor
 
-ProfGPT is a LangChain-based GPT-3.5 powered model designed to assist students in selecting the best courses based on their preferences, strengths, and professor reviews. Often, after their first semester, students feel overwhelmed by the sheer number of available courses (50+ courses), each with its own syllabus and unique professor. ProfGPT provides an intuitive solution by offering personalized course recommendations through an interactive chatbot that fetches and analyzes professor reviews from platforms like Reddit and RateMyProfessor.
+ProfEssence-AI is a LangChain-based GPT-3.5 powered model designed to assist students in selecting the best courses based on their preferences, strengths, and professor reviews. Often, after their first semester, students feel overwhelmed by the sheer number of available courses (50+ courses), each with its own syllabus and unique professor. ProfEssence-AI provides an intuitive solution by offering personalized course recommendations through an interactive chatbot that fetches and analyzes professor reviews from platforms like Reddit and RateMyProfessor.
 
 The application features a **Next.js frontend chat interface** where students can engage with the AI model to receive tailored course suggestions based on their learning styles, competencies, and career aspirations.
 
@@ -11,7 +11,7 @@ The application features a **Next.js frontend chat interface** where students ca
 After the first semester, many students struggle to choose courses that align with their competencies and future goals. With over 50+ available courses, researching each syllabus, analyzing professor reviews, and assessing compatibility can be daunting.
 
 ### **Solution**
-ProfGPT simplifies the course selection process by combining **LangChain** with **GPT-3.5** and data from RateMyProfessor and Reddit to provide tailored course recommendations. Students receive suggestions based on their abilities and preferences, streamlining course registration and enhancing the overall academic experience.
+ProfEssence-AI simplifies the course selection process by combining **LangChain** with **GPT-3.5** and data from RateMyProfessor and Reddit to provide tailored course recommendations. Students receive suggestions based on their abilities and preferences, streamlining course registration and enhancing the overall academic experience.
 
 ## 🎯 **Features**
 - **Personalized course suggestions**: Tailored recommendations based on the student's preferences and academic strengths.
