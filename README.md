@@ -1,62 +1,47 @@
-# AI Rate My Professor
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-This project aims to build a system that rates professors based on AI-driven insights. The project uses both Node.js for the frontend and Python for backend processes.
+<div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Shadcn_UI-black?style=for-the-badge&logoColor=white&logo=shadcnui&color=000000" alt="shadcnui" />
+    <img src="https://img.shields.io/badge/-Zod-black?style=for-the-badge&logoColor=white&logo=zod&color=3E67B1" alt="zod" />
+    <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="firebase" />
+    <img src="https://img.shields.io/badge/Axios-purple?style=for-the-badge&logo=axios&logoColor=white" alt="firebase" />
+    <img src="https://img.shields.io/badge/Uploadthing-red?style=for-the-badge&logo=&logoColor=white" alt="uploadthing" />
+</div>
 
 ## Getting Started
 
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- [Python](https://www.python.org/downloads/) installed on your machine.
-- [Miniconda](https://docs.anaconda.com/miniconda/) installed on your machine.
-- [Node.js](https://nodejs.org/) and npm installed.
-
-### 1. Pull the Latest Changes
-
-Before doing anything, ensure you have the latest code from the repository:
+First, run the development server:
 
 ```bash
-git pull origin main
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### 2. Install Node.js Dependencies
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-After pulling the latest code, install the required Node.js packages:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```bash
-npm install
-```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### 3. Set Up Python Environment
+## Learn More
 
-- Make sure [Python](https://www.python.org/downloads/) and [Miniconda](https://docs.anaconda.com/miniconda/) are installed.
-- Create the `rag` environment:
+To learn more about Next.js, take a look at the following resources:
 
-```bash
-conda create -n rag python=3.10.4
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Activate the `rag` environment:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-```bash
-conda activate rag
-```
+## Deploy on Vercel
 
-### 4. Install Python Dependencies
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Install the required Python packages using the `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Additional Notes
-
-- Ensure that your Python environment is correctly set up before proceeding with any Python-related tasks.
-- Always remember to run npm install and pip install -r requirements.txt after pulling the latest changes to keep your environment up to date.
-
-## Troubleshooting
-
-- If you encounter any issues with environment setup or dependencies, make sure your Python, Miniconda, and Node.js installations are up to date and that the correct environment is activated.
-- If Node.js dependencies fail to install, ensure that your node and npm versions are compatible with the project requirements.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
